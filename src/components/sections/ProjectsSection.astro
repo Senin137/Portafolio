@@ -41,7 +41,7 @@ const projects = [
 ];
 ---
 
-<section id="projects" class="relative py-28 px-6 bg-gray-50 overflow-hidden">
+<section id="projects" class="relative py-8 md:py-28 px-4 md:px-6 bg-gray-50 overflow-hidden">
 
   <!-- Decoración fondo -->
   <div class="absolute top-0 right-0 w-96 h-96 bg-fuchsia-100/40 rounded-full blur-3xl pointer-events-none translate-x-1/3 -translate-y-1/3" />
@@ -50,38 +50,38 @@ const projects = [
   <div class="relative max-w-6xl mx-auto">
 
     <!-- Título de sección -->
-    <div class="flex items-center gap-3 mb-6">
+    <div class="flex items-center gap-3 mb-8 md:mb-4">
       <span class="text-xs uppercase tracking-widest text-violet-500 font-semibold">05. Proyectos</span>
       <div class="flex-1 h-px bg-violet-100" />
     </div>
 
     <!-- Header -->
-    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-14">
-      <div class="flex items-center gap-4">
-        <div class="p-3 rounded-2xl bg-violet-50 border border-violet-100">
-          <svg class="w-8 h-8 text-violet-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />
-          </svg>
-        </div>
-        <h2
-          class="text-4xl md:text-5xl font-black text-gray-900"
-          style="font-family: 'Syne', sans-serif;"
-        >
-          Mis Proyectos
-        </h2>
-      </div>
-      <a
-        href="https://github.com/"
-        target="_blank"
-        rel="noopener noreferrer"
-        class="group inline-flex items-center gap-2 text-sm font-semibold text-violet-600 hover:text-violet-800 transition-colors"
-      >
-        Ver todos en GitHub
-        <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-        </svg>
-      </a>
+    <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-3 md:gap-4 mb-10 md:mb-14">
+  <div class="flex items-center gap-3 md:gap-4">
+    <div class="p-2.5 md:p-3 rounded-2xl bg-violet-50 border border-violet-100 shrink-0">
+      <svg class="w-6 h-6 md:w-8 md:h-8 text-violet-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />
+      </svg>
     </div>
+    <h2
+      class="text-2xl sm:text-4xl md:text-5xl font-black text-gray-900 leading-tight"
+      style="font-family: 'Syne', sans-serif;"
+    >
+      Mis Proyectos
+    </h2>
+  </div>
+  <a
+    href="https://github.com/"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="inline-flex items-center gap-2 text-sm font-semibold text-violet-600 hover:text-violet-800 transition-colors group"
+  >
+    Ver todos en GitHub
+    <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
+    </svg>
+  </a>
+</div>
 
     <!-- Grid de proyectos -->
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
