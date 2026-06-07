@@ -6,5 +6,7 @@ export default defineConfig({
   integrations: [react()],
   vite: {
     plugins: [tailwindcss()]
-  }
+  },
+  site: 'https://Senin137.github.io',
+  base: '/Portfolio/'
 });
